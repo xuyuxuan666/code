@@ -29,7 +29,7 @@ markdown使用模板
 
 ## **代码块**
 
-‘’‘’C++
+‘’‘C++
 #include <iostream>
 using namespace std;
 
@@ -37,7 +37,7 @@ int main() {
   cout << "Hello World!";
   return 0;
 }
-''''
+'''
 -----------------------------------------
 
 ## **强调**
