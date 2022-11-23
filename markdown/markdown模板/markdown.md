@@ -29,7 +29,7 @@ markdown使用模板
 
 ## **代码块**
 
-‘’‘’Cpp
+‘’‘’C++
 #include <iostream>
 using namespace std;
 
