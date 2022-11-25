@@ -11,4 +11,5 @@ git checkout <分支名字>       --检查分支
 ```md
 git status                  --检查本地仓库的变化情况
 git diff                    --查看更改内容
+git add <文件名字>            --将修改的文件添加至索引库
 ```
