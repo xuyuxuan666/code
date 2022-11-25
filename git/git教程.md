@@ -11,5 +11,8 @@ git checkout <分支名字>       --检查分支
 ```md
 git status                  --检查本地仓库的变化情况
 git diff                    --查看更改内容
-git add <文件名字>            --将修改的文件添加至索引库
+git add <文件名字> <>         --将修改的文件添加至暂缓区
+git add .                   --将修改的所有内容添加至暂缓区
+git commit -m 'message'     --将所有暂缓区中修改的文件添加到本地仓库
+git push                    --将本地仓库上传到远程仓库
 ```
