@@ -9,4 +9,4 @@ locale
 '''
 以下命令输出，则一切就绪
 
-![photo](~/图片及缓存/ROS.png)
+![](https://github.com/xuyuxuan666/code/blob/main/ROS/%E5%9B%BE%E7%89%87%E5%8F%8A%E7%BC%93%E5%AD%98/ROS.png)
