@@ -8,4 +8,5 @@ ROS2 Ubuntu22.04 安装教程
 locale
 '''
 以下命令输出，则一切就绪
-/home/xuyuxuan/Desktop/New Folder 1/code/ROS/图片及缓存/ROS.png
+
+![photo](~/图片及缓存/ROS.png)
