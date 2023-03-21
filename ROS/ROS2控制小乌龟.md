@@ -1,6 +1,17 @@
 ROS2 命令行入门
 ========================
 -----------------------------------------
+```
+ros2 run：运行ROS 2软件包中的节点
+ros2 topic：查看ROS 2话题的信息
+ros2 node：查看ROS 2节点的信息
+ros2 launch：启动ROS 2软件包中的多个节点
+ros2 param：管理ROS 2参数
+ros2 service：查看ROS 2服务的信息
+ros2 action：查看ROS 2动作的信息
+ros2 bag：录制和回放ROS 2话题数据
+ros2 doctor：诊断ROS 2环境是否配置正确
+```
 ## **节点**
 
 运行海龟仿真节点
