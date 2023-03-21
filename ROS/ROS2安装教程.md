@@ -95,3 +95,8 @@ cd /opt/ros/humble/lib/demo_nodes_py/
 ```terminal
 ros2 run demo_nodes_py listener
 ```
+
+
+测试结果如下图所示：
+
+![](https://github.com/xuyuxuan666/code/blob/main/ROS/%E5%9B%BE%E7%89%87%E5%8F%8A%E7%BC%93%E5%AD%98/ROS2.png)
