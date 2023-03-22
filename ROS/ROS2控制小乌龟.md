@@ -50,7 +50,7 @@ ros2 topic echo /turtle1/pose
 想要控制海龟动起来，我们还可以直接通过命令行发布话题指令：
 
 ```ROS2
- ros2 topic pub --rate 1 /turtle1/cmd_vel geometry_msgs/msg/Twist "{linear: {x: 2.0, y: 0.0, z: 0.0}, angular: {x: 0.0, y: 0.0, z: 1.8}}"
+ros2 topic pub --rate 1 /turtle1/cmd_vel geometry_msgs/msg/Twist "{linear: {x: 2.0, y: 0.0, z: 0.0}, angular: {x: 0.0, y: 0.0, z: 1.8}}"
 ```
 
 ## **服务**
