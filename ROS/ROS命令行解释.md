@@ -116,3 +116,50 @@ name -> 命名
 ```ROS2
 ros2 bag record /turtle1/cmd_vel$ ros2 bag play rosbag2_2022_04_11-17_35_40/rosbag2_2022_04_11-17_35_40_0.db3
 ```
+
+
+-----------------------------------------
+## **创建功能包**
+
+创建代码指令：
+```
+ros2 pkg create --build-type <build-type> <package_name>
+```
+例如：创建C++功能包
+```
+ros2 pkg create --build-type ament_cmake learning_pkg_c
+```
+会生成两个文件：
+
+CMakelist.txt    ->  编译规则
+package.xml      ->  功能包的基本信息和功能包所需要的依赖
+例如：创建python功能包
+```
+ros2 pkg create --build-type ament_python learning_pkg_python
+```
+会生成三个文件：
+
+setup.cfg        ->  
+setup.py         ->  
+package.xml      ->  功能包的基本信息和功能包所需要的依赖
+
+
+
+-----------------------------------------
+## **编译**
+
+编译成功，节点才能运行。在根目录下，指令：
+```
+colcon build
+```
+编译成功后，运行节点，指令：
+```
+ros2 run <功能包> <节点名称>
+````
+例如
+```
+ros2 run learning_node node_helloworld
+```
+
+
+
