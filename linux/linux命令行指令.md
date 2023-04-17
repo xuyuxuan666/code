@@ -10,12 +10,11 @@ touch <文件名>
 
 ``` 删除
 rm [参数] <文件名>
-
 ```
 参数说明：  
-	1  -f   -force        忽略不存在的文件，强制删除，无任何提示  
-	2  -i   -interactive  进行交互式删除  
-	3  -r|-R  -recursive  递归式地删除列出的目录下的所有  
-	4  -V    -verbose     详细显示进行的步骤  
+  1  -f   -force        忽略不存在的文件，强制删除，无任何提示  
+  2  -i   -interactive  进行交互式删除  
+  3  -r|-R  -recursive  递归式地删除列出的目录下的所有  
+  4  -V    -verbose     详细显示进行的步骤  
 
 
