@@ -27,22 +27,22 @@ source install/local_setup.sh
 示例：
 ```
 cd ~/dev_ws/src
-ros2 pkg create --build-type ament_cmake xuanlearning_pkg
-ros2 pkg create --build-type ament_python xuanlearning_pkg
+ros2 pkg create --build-type ament_cmake xuanlearning_pkg    # C++版本
+ros2 pkg create --build-type ament_python xuanlearning_pkg   # python版本
 ```
 编译功能包
 ```
 cd ~/dev_ws/src
-colon build
+colon build                                                 # 注意，在根目录下执行
 source install/local_setup.sh
 ```
 
-### 创建功能包的结构
-创建的一个C++版本空白的功能包包含：
+### **创建功能包的结构**
+**创建的一个C++版本空白的功能包包含：**
 1. CmakeLists.txt    # 编译规则
 2. package.xml       # 功能包的基本信息 以及 声明功能包的依赖项
 
-创建的一个python版本空白的功能包包含：
+**创建的一个python版本空白的功能包包含：**
 1. package.xml       # 功能包的基本信息 以及 声明功能包的依赖项
 3. setup.py          # 程序入口程序点的描述，将python的可执行文件的配置
 2. setup.cfg         # 功能包的信息 不需要修改

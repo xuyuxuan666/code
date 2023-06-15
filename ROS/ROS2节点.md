@@ -41,6 +41,11 @@ def main(args=None):                             # ROS2节点主入口main函数
 
 ## **节点面向对象的编程(类)**
 
+**什么是节点：**        
+在ROS 2中，节点（Node）是一个可以相互通信的进程。每个节点都有一个唯一的名称，并且可以通过ROS 2的通信机制与其他节点进行通信。
+
+节点可以发布（Publish）消息到主题（Topic）中，也可以订阅（Subscribe）主题以接收消息。此外，节点还可以提供（Provide）服务（Service）以响应请求，也可以调用（Call）其他节点提供的服务。
+
 ```
 import rclpy                                     # ROS2 Python接口库
 from rclpy.node import Node                      # ROS2 节点类
